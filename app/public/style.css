@@ -1,0 +1,33 @@
+body{
+    background-image:url(/bg1.jpg);
+    background-attachment: fixed;
+    background-position: 100% 100%;
+    background-size: cover;
+    color: rgb(9, 71, 107) !important;
+}
+.jumbotron {
+    background-color: white;
+    border: 5px double rgb(197, 26, 106);
+    opacity: .8;
+}
+a{
+    color: rgb(197, 26, 106);
+   background-color: white
+}
+#survey-container{
+   background-color: white;
+   opacity: .8;
+}
+#submit,#home-btn{
+    background-color:rgb(197, 26, 106) !important;
+}
+.modal-content{
+    background-color: white;
+    opacity: .9;
+}
+#survey-modal-btn{
+    background-color: rgb(197, 26, 106);
+}
+input,select{
+    border: 1px solid rgb(197, 26, 106) !important;
+}
