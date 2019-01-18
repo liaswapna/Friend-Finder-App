@@ -12,6 +12,6 @@ app.use(express.static(path.join(__dirname, 'app/public')));
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
-app.listen(3000, () =>{
+app.listen(PORT, () =>{
     console.log(`listening to PORT:${PORT}....`)
 })
